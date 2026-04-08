@@ -16,3 +16,4 @@ user10:$y$j9T$SrYeIrf1zdVZjxx4PkOwZ0$VwSgwQybogSbFT8xZvzrSmMas5Rjo1aNvaWIepsjd51
 
 bcrypt-1234:$2b$05$XniTCBpWjuT.UACvMlm7s.VHk652aUxiGYEu3HGS3YDjAskfolv7i
 md5-1234:$1$svTjZbA5$kbtcQI2IKcB9TB4YLSmLr.
+md5-aaaa:$1$salt123$4uqlE25bM/IM2JegL1ZUj1

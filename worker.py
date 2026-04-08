@@ -348,7 +348,7 @@ class WorkerApp:
                             threads=self.threads,
                             start_index=actual_start,
                             count=actual_count,
-                            chunk_size=2000,
+                            chunk_size=200,
                             external_stop=self._stop_event,
                         )
 
