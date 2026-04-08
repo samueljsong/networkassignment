@@ -25,7 +25,7 @@ class ThreadedBruteForcer:
         start_index: int,
         count: int,
         *,
-        chunk_size: int = 2000,
+        chunk_size: int = 500,
         external_stop: Optional[threading.Event] = None,
     ) -> None:
         if threads <= 0:

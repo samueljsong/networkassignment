@@ -13,3 +13,6 @@ user8:$6$b9Dk/bjDszpn4Qz/$.WO.W8CN89BxMp2FqGlC5RdmGjSIKIItKUVTz.tDTzze0azJckxaZ1
 
 user9:$y$j9T$ql.pFSHLNUKNrzJDslG7A0$iBcEMFfI1nS9EZYRtxYF0xBv0.es96Ot0hStJWyOCq6:20474:0:99999:7:::
 user10:$y$j9T$SrYeIrf1zdVZjxx4PkOwZ0$VwSgwQybogSbFT8xZvzrSmMas5Rjo1aNvaWIepsjd51:20474:0:99999:7:::
+
+bcrypt-1234:$2b$05$XniTCBpWjuT.UACvMlm7s.VHk652aUxiGYEu3HGS3YDjAskfolv7i
+md5-1234:$1$svTjZbA5$kbtcQI2IKcB9TB4YLSmLr.
