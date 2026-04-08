@@ -337,6 +337,8 @@ class WorkerApp:
 
                     self._send_resume_notice(sock, assign, actual_start, actual_count)
 
+                    internal_chunk_size = max(1, actual_count // self.threads)
+
                     with self._bruteforcer_lock:
                         self._current_chunk_id = assign.chunk_id
                         self._current_chunk_start = assign.start
@@ -348,7 +350,7 @@ class WorkerApp:
                             threads=self.threads,
                             start_index=actual_start,
                             count=actual_count,
-                            chunk_size=200,
+                            chunk_size=internal_chunk_size,
                             external_stop=self._stop_event,
                         )
 
